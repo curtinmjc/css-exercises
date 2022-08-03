@@ -16,11 +16,19 @@
 }
 
 /* .confirm { */
-.button.confirm {
+/* .button.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} */
+
+/* alternative to above */
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
 } 
+/* end of alternative */
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -28,17 +36,13 @@
   font-size: 20px;
 }
 
-/* .child {
+/* .child { */
+.text .child {
   color: red;
   font-size: 14px;
-} */
+}
 
 div.text {
   color: green;
   font-size: 22px;
-}
-
-div .child {
-  color: red;
-  font-size: 14px;
 }
